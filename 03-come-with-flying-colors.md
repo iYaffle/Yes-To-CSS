@@ -3,8 +3,8 @@ Come With Flying Colors
 
 This should be the most colorful section of our guide. Yes, we are going to deal with colors and background of HTML documents.
 
-Color Modes in CSS
-------------------
+Color Modes
+-----------
 CSS provides the flexibility of representing colors in 3 different ways. You can chose to specify a color either in one of the standard formats mentioned below.
 
  1. Standard color name : *green*
