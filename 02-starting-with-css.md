@@ -1,6 +1,9 @@
 Starting With CSS
 =================
 
+Basic CSS Syntax
+----------------
+Let's now start with the basic usage of CSS in our HMTL files.
 
 Internal CSS
 -------------
