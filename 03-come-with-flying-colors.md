@@ -18,3 +18,50 @@ CSS provides the flexibility of representing colors in 3 different ways. You can
 >
 > - RGB mode is hardware-oriented.
 > - HSL color mode depends on the lightness and darkness composition which may be considered as a advantage over RGB scheme.
+> - Hexadecimal color code always start with an #.
+
+Below are the examples showing the use of different color schemes using along with H2 tag.
+
+**Color Name:**
+
+```css
+h2 {
+   color: black;
+}
+``` 
+
+**HEX Code:**
+
+```css
+h2 {
+   color: #ff0000;
+}
+``` 
+
+**RGB Mode:**
+```css
+h2 {
+   color: rgb(100,255,100);
+}
+``` 
+
+**RGBA Mode:**
+```css
+h2 {
+   color: rgba(100,255,100,0.5);
+}
+``` 
+
+**HSL Mode:**
+```css
+h2 {
+   color: hsl(120,90%,90%);
+}
+``` 
+
+**HSLA Mode:**
+```css
+h2 {
+   color: hsla(100,90%,75%,0.7);
+}
+``` 
