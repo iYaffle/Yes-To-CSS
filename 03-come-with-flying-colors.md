@@ -3,6 +3,9 @@ Come With Flying Colors
 
 This should be the most colorful section of our guide. Yes, we are going to deal with colors and background of HTML documents.
 
+Color Property
+--------------
+
 Color Modes
 -----------
 CSS provides the flexibility of representing colors in 3 different ways. You can chose to specify a color either in one of the standard formats mentioned below.
@@ -16,9 +19,10 @@ CSS provides the flexibility of representing colors in 3 different ways. You can
 
 > **NOTE:**
 >
-> - RGB mode is hardware-oriented.
-> - HSL color mode depends on the lightness and darkness composition which may be considered as a advantage over RGB scheme.
-> - Hexadecimal color code always start with an #.
+> - The output of RGB mode is dependent on the hardware, as you can observe the color differences in different quality of monitors.
+> - The RGB values have a range from 0-255.
+> - HSL color mode depends on the light exposure and considered better for use over RGB scheme.
+> - Hexadecimal color code always start with an #. Refer above exammple.
 
 Below are the examples showing the use of different color schemes using along with H2 tag.
 
@@ -65,3 +69,22 @@ h2 {
    color: hsla(100,90%,75%,0.7);
 }
 ``` 
+
+Transparent Colors!
+-------------------
+
+If you want to try a transparent color, you can either use the color name as "transparent" or rgba(0,0,0,0) which denotes transparent black color.
+
+Below are the two variants of using transparent colors.
+```css
+h2 {
+   color: transparent;
+}
+``` 
+
+```css
+h2 {
+   color: rgba(0,0,0,0);
+}
+```
+
