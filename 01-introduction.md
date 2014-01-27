@@ -11,6 +11,18 @@ Secrets About HTML
 ------------------
 To use CSS, you obviously need some amount of HTML to play around. If you are new to web development, this section will help you understand about HTML in high level.
 
+In the words of W3C,
+
+> HTML is the language for describing the structure of Web pages.
+
+In our words, HTML is used to create a structured layout of your content which is easy to maintain(to some extend) and publish online. 
+
+Tim Berners-Lee was the man who changed the world by inventing HTML in 1990. The initial purpose of HTML was to help scientist share their findings and research documents with others. Later it has evolved to what we call now as *Web*. People started to share personal information and other kinds of textual information. As more and more data gets added, it's required to "mark-up" the document for easy understanding.
+
+For example, if you want to highlight a heading in a document, you use a specific syntax( or called as tags). This way, more structure document can be created.
+
+Again make a note that this guide assumes that the reader has some knowledge on HTML.
+
 What is CSS?
 ------------
 Let us start with understanding what is CSS and what it can do for us.
@@ -55,18 +67,30 @@ The cascade is about what take precedence when there is a conflict. The rules of
 - More specific selectors override less specific selectors
 - Specified properties override inherited properties
 
-
-Why CSS?
---------
-This section will answer to your question of *Why do we need CSS*?
-
-What you will love?
--------------------
-Some advantages of using CSS
-
 HTML and CSS
 ------------
-What's the relationship of CSS with HTML?
+Are you wondering the relationship between CSS with HTML? If not you skip this section.
+
+HTML is the language using which you specifiy your web page content and how they are structured. 
+
+CSS is the language using which you describe the presentation of web page content by using colors, fonts and various other design concepts. 
+
+Whether you browse the web page in your Windows Desktop or in your Nokia Lumia or in your iPhone 5, the content is not going to change. But by using CSS, you can make your web pages to adapt the formatting of content based on the devices.
+
+so, HTML is like a raw product and CSS is the packaging method. As you can gift-pack a product with different designs, you can make a web page look different by using different CSS styles.
+
+The main purpose of CSS is to take out the presentation logic from HTML document content. Re-usablity of CSS code across multiple web pages can also be achieved by seperating them.
+
+> **TIP:** If you are .NET or a PHP developer, you should have an idea of MVC frameworks which separates the View and Controllers. It's the same with HTML and CSS.
+
+
+What you will love in CSS?
+--------------------------
+This section will answer to your question of *Why do we need CSS*?
+
+
+> **Do You Know?** 
+> CSS was initially called as CHSS(Cascading *HTML* Style Sheets). But later as style sheets can be used for other structured documents like XML, the *HTML* was eventually dropped.
 
 CSS Specifications
 ------------------
@@ -94,7 +118,7 @@ Version 2 was published on 1998 and it added advanced properties for element pos
 This is the current recommended version of CSS and all other older versions are not maintained. Initial specification was published in 1999 and new capabilities are getting added to the formal recommendation.
 
 ### CSS4 ###
-Version 4 is new to all and it's still in draft mode. The future proposal will have many new features. Let's cross our fingers for it. We do not cover any of its feature in this guide.
+CSS4 is an in-progress version. The future proposal will have many new features and there is no clarity on its changes/enhancements. We do not cover any of its feature in this guide. Let's cross our fingers for it.
 
 > **NOTE:** There are also some sub-version like CSS 2.1 which is also no longer maintained as all other old versions.
 
