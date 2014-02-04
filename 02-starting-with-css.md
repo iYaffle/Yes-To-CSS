@@ -106,7 +106,7 @@ In some cases, using inline CSS styles is much appropriate. For example, if you 
 
 Your Comments
 -------------
-Oh! wait. We are not asking for your comment on this tutorial now. Not yet, buddy. This section tells you how to add some comments to the CSS document. Using comments extensively in any programming is always good for better readablity and understanding of the code.
+Oh! wait. We are not asking for your comment on this tutorial now. Not yet, buddy. This section tells you how to add some comments to the CSS document. Using comments extensively in any programming is always good for better readability and understanding of the code.
 
 In CSS to add a comment , start the line with */** and ends with **/*. The below example shows how to do that.
 
