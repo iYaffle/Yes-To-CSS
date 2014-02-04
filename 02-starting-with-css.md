@@ -106,7 +106,7 @@ In some cases, using inline CSS styles is much appropriate. For example, if you 
 
 Your Comments
 -------------
-Oh! wait. We are not asking for your comment on this tutorial now. Not yet, buddy. This section tells you how to add some comments to the CSS document. Using comments extensively in any programming is always good and advisable.
+Oh! wait. We are not asking for your comment on this tutorial now. Not yet, buddy. This section tells you how to add some comments to the CSS document. Using comments extensively in any programming is always good for better readablity and understanding of the code.
 
 In CSS to add a comment , start the line with */** and ends with **/*. The below example shows how to do that.
 
@@ -122,5 +122,23 @@ You can also use comments to stop a particular property from being styled.
 p {
   color: red;
   /*backgroud-color: white;*/
+}
+```
+
+You can have the comments spanning multiple lines. In the below example, 2 lines are commented using a single comments block.
+
+```css
+p {
+  /*color: red;
+  backgroud-color: white;*/
+}
+```
+
+But you **can't** have them nested as below. The below sample CSS is incorrect as it has nested comment blocks.
+
+```css
+p {
+  /*color: red; /*red color*/
+  backgroud-color: white;*/
 }
 ```
