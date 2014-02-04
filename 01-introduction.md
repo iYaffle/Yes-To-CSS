@@ -88,6 +88,8 @@ What you will love in CSS?
 --------------------------
 This section will answer to your question of *Why do we need CSS*?
 
+ - A clear separation of markup vs styles
+ - cleaner HTML markup
 
 > **Do You Know?** 
 > CSS was initially called as CHSS(Cascading *HTML* Style Sheets). But later as style sheets can be used for other structured documents like XML, the *HTML* was eventually dropped.
