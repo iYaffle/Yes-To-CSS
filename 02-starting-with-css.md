@@ -92,7 +92,8 @@ p {
 }
 ```
 
-The .css files
+The css file is nothing but a plain text file which you can edit in a Notepad, with a .css extension.
+
 Comparison of 3 methods
 -----------------------
 There are some advantages for using external CSS files because of the following reasons.
