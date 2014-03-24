@@ -170,7 +170,7 @@ p {
 }
 ```
 
-But you **can't** have them nested as below. The below sample CSS is incorrect as it has nested comment blocks.
+Note that CSS does not allow you use nested comments as below. In the below example a comment block is present inside another comment block.
 
 ```css
 p {
