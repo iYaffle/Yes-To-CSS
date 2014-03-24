@@ -66,7 +66,24 @@ As you see in the above example, the CSS style code is embedded to the document 
 
 External CSS
 -------------
-This is where the factor of re-usability comes to play. You can apply same set of CSS styles across multiple HTML documents by creating a single .css file. In the below example, file named style.css is linked to the document as a stylesheet. So we have 2 separate files, one for the content(example.html) layer and one for presentation(style.css) layer.
+This is where the factor of re-usability comes to play. You can apply same set of CSS styles across multiple HTML documents by creating a single .css file. 
+
+Using an external CSS resource can be done either by using &lt;link&gt; tag or using @import keyword in your &lt;style&gt; tag.
+
+Let us see an example for each of these methods. Before going to the example, let's assume we have a file named style.css , which we want to include in our web page. The file has the below content and it's just a plain text CSS code.
+
+```css
+p {
+  color: red;
+  backgroud-color: white;
+}
+```
+
+Now, we have another file named example.html where we want to use our style.css file. To summarize, We have 2 separate files, one for the content(example.html) layer and one for presentation(style.css) layer.
+
+### Example using &lt;link&gt;: ###
+
+In the below example, the style.css file is linked to the example.html file as a stylesheet. 
 
 **example.html**
 ```html 
@@ -83,16 +100,33 @@ This is where the factor of re-usability comes to play. You can apply same set o
 
 </html>
 ```
-**style.css**
 
-```css
-p {
-  color: red;
-  backgroud-color: white;
-}
+### Example using @import: ###
+
+Let's do the same thing now but with @import keyword. You can notice that we have used &lt;style&gt; tag instead of &lt;link&gt; tag to import. The file content of style.css does not change. Only the way you include this file to your html file changes.
+
+**example.html**
+```html 
+<html>
+
+    <head>
+        <title>Yes to CSS - Demo</title>
+        <style>
+           @import url('style.css');
+        </style>
+    </head>
+
+    <body>
+        <p>This text will be in red color</p>
+    </body>
+
+</html>
 ```
 
-The css file is nothing but a plain text file which you can edit in a Notepad, with a .css extension.
+The literal meaning of this method is that the style.css file's content is imported to your example.html file.
+
+> **Points to Ponder** 
+> Always use &lt;link&gt; tag where ever possible instead of @import keyword when you want to include any external CSS file to your web page. Using @import may create a bottleneck in your web page load time as it does not allow parallel download of files.
 
 Comparison of 3 methods
 -----------------------
