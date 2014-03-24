@@ -21,7 +21,7 @@ Tim Berners-Lee was the man who changed the world by inventing HTML in 1990. The
 
 For example, if you want to highlight a heading in a document, you use a specific syntax( or called as tags). This way, more structure document can be created.
 
-Again make a note that this guide assumes that the reader has some knowledge on HTML.
+Again make a note that this guide assumes that the reader has some knowledge on HTML. But still we will provide a basic information to brush up on your HTML knowledge.
 
 What is CSS?
 ------------
@@ -125,3 +125,10 @@ CSS4 is an in-progress version. The future proposal will have many new features 
 > **NOTE:** There are also some sub-version like CSS 2.1 which is also no longer maintained as all other old versions.
 
 As CSS3 is the current recommended specification, whenever we mention CSS, it refers to CSS3 unless until we say otherwise.
+
+Components of HTML
+------------------
+As promised in the earlier section, we will cover some basics of HTML to get a good understanding of CSS.
+
+Components of CSS
+-----------------
