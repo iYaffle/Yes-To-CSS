@@ -62,6 +62,7 @@ They are also called *Embedded CSS* by some folks. These types of CSS are includ
 As you see in the above example, the CSS style code is embedded to the document by using &lt;style&gt; tag which in turn is placed in the &lt;head&gt; tag.
 
 > **Points to Ponder** 
+>
 > These kind of CSS styles are applied only to the particular HTML document where it is embedded. If you want to use the same set of styling rules across multiple pages, you need to duplicate them in all HTML documents.
 
 External CSS
