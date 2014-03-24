@@ -127,6 +127,7 @@ Let's do the same thing now but with @import keyword. You can notice that we hav
 The literal meaning of this method is that the style.css file's content is imported to your example.html file.
 
 > **Points to Ponder** 
+>
 > Always use &lt;link&gt; tag where ever possible instead of @import keyword when you want to include any external CSS file to your web page. Using @import may create a bottleneck in your web page load time as it does not allow parallel download of files.
 
 Comparison of 3 methods
