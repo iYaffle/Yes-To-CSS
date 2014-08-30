@@ -30,7 +30,9 @@ How to use inline CSS
 ```
 You can use multiple properties by separating them with comma as shown below.
 
+```html
     <p style="color:red;background-color:white;">Red in White</p>
+```
 
 The re-usability of inline CSS is 0% and can be used when you want to override some global styles applied by other 2 methods.
 
